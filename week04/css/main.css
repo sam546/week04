@@ -1,0 +1,34 @@
+.my-box{
+  background-color: tomato;
+  width: 25%;
+  height: 100px;
+}
+@media(max-width: 600px){
+  .my-box{
+    background-color: blue;
+    width: 10%;
+    height: 25px;
+    transition: 1s;
+  }
+  body{
+    background-color: pink;
+  }
+  }
+}
+.circle{
+  background-color: tomato;
+  width: 25%;
+  height: 100px;
+}
+@media(min-width: 500px){
+  .circle{
+    background-color: green;
+    height: 30px;
+    width: 30%;
+    transition: 1s;
+  }
+  body{
+    background-color: yellow;
+  }
+  }
+}
